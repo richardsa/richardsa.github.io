@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Richie's Pomodoro Timer</title>
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<!-- local javascript/jquery file -->
+<script src="js/custom.js"></script>
+
+<!--local stylesheet -->
+<link rel="stylesheet" href="css/style.css">
+  
+  </head>
+<body>
+<div class="container">
+     <div class="row text-center">
+  <h1>Richie's Pomodoro Timer</h3>
+       <div class="row">
+        <div class="col-xs-6">
+          <p class="clock-labels">Break Length</p>
+          <div id="break-labels">
+          <button id="break-low" class="btn btn-default timeControl">-</button>
+          <span id="break-length">5</span>
+          <button id="break-high" class="btn btn-default timeControl">+</button>
+          </p>
+         </div>
+         </div>
+        <div class="col-xs-6">
+          <p id="clock-labels">Session Length</p>
+           <div id="session-labels">
+          <button id="session-low" class="btn btn-default timeControl">-</button>
+          <span id="session-length">25</span>
+          <button id="session-high" class="btn btn-default timeControl">+</button>
+          </div>
+         </div>
+       </div>
+      <div id="timer">
+        <h1 id="label">Session</h3>
+        <h1 id="clock">25</h1>
+      </div>
+  </div>
+</div>
+</body>
+</html>
