@@ -1,0 +1,89 @@
+html,
+body {
+  height: 100%;
+  font-size: 16px;
+}
+/* footer */
+
+.footer {
+  position: relative;
+  clear: both;
+  padding-top: 20px;
+  background-color: #F8F8F8;
+}
+
+.footer-left {
+  text-aliign: left;
+}
+/*jumbotron*/
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+.jumbotron hr {
+  max-width: 80%;
+}
+/* navbar */
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: #4F608F;
+  color: #FFFFFF;
+}
+/* main section div's */
+
+.main-section {
+  color: #FFFFFF;
+  min-height: 400px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+.main-section p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  vertical-align: middle;
+}
+/*about section*/
+
+.about img {
+  padding: 10px;
+}
+
+.home,
+.portfolio {
+  background-color: #4F608F;
+}
+
+.about,
+.contact {
+  background-color: #162756;
+}
+
+.contact-section li {
+  padding: 10px;
+}
+
+.contact-section li button {
+  width: 115px;
+}
+/*button styling*/
+
+.btn-default:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+/*portfolio */
+
+.caption h3 {
+  margin-top: 5px;
+}
