@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TwitchTV Streams</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- local javascript/jquery file -->
+  <script src="js/custom.js"></script>
+
+  <!--local stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+  <div class="row text-center jumbotron">
+    <h1>TwitchTV Streams</h1>
+  </div>
+
+  <div class="row displayControls text-center">
+    <div class="btn-group">
+      <button type="button" id="allStreamsBtn" class="btn btn-default btn-lg">All </button>
+      <button type="button" id="onlineStreamsBtn" class="btn btn-success btn-lg">Online</button>
+      <button type="button" id="offlineStreamsBtn" class="btn btn-danger btn-lg">Offline</button>
+
+    </div>
+    <div class="row">
+      <div class="col-xs-12 stream-information">
+        <div id="activeStreams">
+        </div>
+        <div id="offlineStreams">
+        </div>
+        <div id="closedStreams">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
