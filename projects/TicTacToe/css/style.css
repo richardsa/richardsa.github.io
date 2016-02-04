@@ -1,0 +1,30 @@
+.square {
+  background-color: blue;
+  width:100px;
+
+    display: table-cell;
+
+
+}
+#gameboard {display:none;}
+.pickerButtons p {font-size:30px;}
+.pickerButton {background-color: blue; color: #ffffff; padding:15px; font-size:25px;}
+.square h3 {
+  color: #ffffff;
+  text-align: center;
+  line-height: 90px;
+  margin:0px;
+  padding:0px;
+}
+
+.game-row
+{
+  height:100px;
+    display: table;
+    margin-right:auto;
+    margin-left:auto;
+    table-layout: fixed;
+    border-spacing: 10px 5px;
+}
+
+#pageHeader {margin-left: auto; margin-right:auto; text-align:center;}
