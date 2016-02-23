@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simon</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- boostrap switch -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.2/css/bootstrap3/bootstrap-switch.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- local javascript/jquery file -->
+  <script src="js/custom.js"></script>
+  <!-- bootsrap switch js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-switch/3.3.2/js/bootstrap-switch.min.js"></script>
+
+  <!--local stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+  <div class="control">
+    <h1 class="text-center">Simon</h1>
+    <div class="row">
+      <div id="count">
+        <div id="count-screen" class="center-text">
+
+        </div>
+        <p>count</p>
+      </div>
+      <div id="start">
+         <button type="button" id="startBtn" class="btn btn-danger"></button>
+         <p>Start</p>
+      </div>
+      <div id="strict">
+        <button type="button" id="strictBtn" class="btn btn-warning"></button>
+         <p>Strict</p>
+      </div>
+    </div>
+    <div id="power" class="row text-center">
+
+      <input type="checkbox" data-on-text="On" data-off-text="Off" name="power-switch" id="power-toggle" data-off-color="warning" >
+    </div>
+  </div>
+  <div class="top row">
+    <div class="top-left gameButton" id="0">
+    </div>
+    <div class="top-right gameButton" id="1">
+    </div>
+  </div>
+  <div class="bottom row">
+    <div class="bottom-left gameButton" id="2" >
+    </div>
+    <div class="bottom-right gameButton" id="3">
+    </div>
+  </div>
+
+</div>
+
+
+</body>
+</html>
