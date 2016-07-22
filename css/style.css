@@ -36,6 +36,11 @@ body {
   color: #FFFFFF;
 }
 /* main section div's */
+/* main section links white*/
+.main-section a {
+    color: #ffffff;
+    text-decoration: underline;
+}
 
 .main-section {
   color: #FFFFFF;
