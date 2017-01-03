@@ -160,3 +160,7 @@ h1 {
   /* background-color: #3e4249; */
   background-color: #4F608F;
 }
+#frontEnd, #dataVis, #contact, #backEnd, .footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
