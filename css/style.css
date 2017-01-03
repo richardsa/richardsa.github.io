@@ -68,6 +68,9 @@ body {
 .portfolio {
   background-color: #4F608F;
 }
+.portfolio {
+  padding: 0;
+}
 
 .about,
 .contact {
@@ -92,4 +95,18 @@ body {
 .caption h3 {
   margin-top: 5px;
   padding-bottom:10px;
+}
+
+#frontEnd, #dataVis{
+   background: url('../images/concrete_seamless.png') top left repeat;
+   color: #000000;
+}
+
+#frontEnd a, #dataVis a {
+   color: #000000;
+}
+
+#backEnd{
+  /* background-color: #3e4249; */
+  background-color: #4F608F;
 }
