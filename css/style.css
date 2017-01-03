@@ -92,6 +92,16 @@ body {
 }
 /*portfolio */
 
+.portfolio img {
+  border: 1px solid #000000;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+.portfolio img:hover {
+  border: 2px solid #000000;
+  opacity: 1;
+}
 .caption h3 {
   margin-top: 5px;
   padding-bottom:10px;

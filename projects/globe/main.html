@@ -79,7 +79,7 @@ var svg = d3.select("body")
 .attr("height", h);
 //Load in GeoJSON data
 d3.json("https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json", function(json) {
-console.log('yeah')
+
 //Bind data and create one path per GeoJSON feature
 svg.selectAll("path")
   .data(json.features)
